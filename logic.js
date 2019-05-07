@@ -3,7 +3,7 @@
 /* Game Logic Part 1 - Utility Functions */
 
 // 1.0 - gameWords variable
-var gameWords = ("");
+var gameWords = ["illuminati", "templar", "warfare", "hunger", "disease", "surveillance", "cyberpunk", "agents", "hacker", "augmentation", "poverty", "homelessness", "nuke", "mutation", "pollution"];
 
 //1.1 - randomWord function
 
