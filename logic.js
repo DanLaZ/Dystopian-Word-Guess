@@ -6,10 +6,26 @@
 var gameWords = ["illuminati", "templar", "warfare", "hunger", "disease", "surveillance", "cyberpunk", "agents", "hacker", "augmentation", "poverty", "homelessness", "nuke", "mutation", "pollution"];
 
 //1.1 - randomWord function
+var randomWord = function(wordList) {
+    Math.floor(Math.random() * wordList.length);
+    return gameWords;
+}
 
 //1.2 - isCorrectGuess function
+var isCorrectGuess = function(word, letter) {
+    for (var i = 0; i >= word.length; i++) {
+        if (gameWords[i] === letter) {
+          
+        }
+        return false;
+    }
+    return true;
+}
 
 //1.3 - getBlanks function
+var getBlanks = function(blank) {
+
+}
 
 //1.4 - fillBlanks function
 
