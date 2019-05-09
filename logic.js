@@ -7,8 +7,9 @@ var gameWords = ["illuminati", "templar", "warfare", "hunger", "disease", "surve
 
 //1.1 - randomWord function
 var randomWord = function(wordList) {
-    Math.floor(Math.random() * wordList.length);
-    return gameWords;
+    var randomIndex = Math.floor(Math.random() * wordList.length); 
+    var randomElement = wordList[randomIndex];
+    return randomElement;
 }
 
 //1.2 - isCorrectGuess function
@@ -46,3 +47,6 @@ var getBlanks = function(blank) {
 //1.11 - startNewRound function
 
 //1.12 - myGame variable
+
+
+
