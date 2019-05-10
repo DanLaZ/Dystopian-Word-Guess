@@ -28,7 +28,7 @@ var isCorrectGuess = function(word, letter) {
 }
 
 //1.3 - getBlanks function
-var getBlanks = function(blank) {
+var getBlanks = function(blanks) {
     var blanks = [];
     for (var i = 0; i < blanks.length; i ++) {
 
@@ -41,7 +41,7 @@ var getBlanks = function(blank) {
 }
 
 //1.4 - fillBlanks function
-var fillBlanks = function(word, wordList, letter) {
+var fillBlanks = function(word, puzzleState, letter) {
 
 }
 
@@ -50,26 +50,56 @@ var fillBlanks = function(word, wordList, letter) {
 //1.5 - setupRound function
 var setupRound = function(word) {
     var roundObj = {
-        word:
+        word: word,
         guessesLeft: 9,
         wrongGuesses: [],
-        puzzleState:
-    }
+        puzzleState: word = [],
+    };
+    return roundObj;
 }
 
 //1.6 - updateRound function
+var updateRound = function(round, letter) {
+
+
+}
 
 //1.7 - hasWon function 
+var hasWon = function(puzzleState) {
+    return true;
+ 
+}
 
 //1.8 - hasLost function
+var hasLost = function() {
+
+}
 
 //1.9 - isEndOfRound function
+var isEndOfRound = function() {
+
+}
 
 //1.10 - setupGame function
+var setupGame = function() {
+
+}
 
 //1.11 - startNewRound function
+var startNewRound = function() {
+
+}
 
 //1.12 - myGame variable
+// var myGame =  
+
+// var roundObj = {
+//     word: word,
+//     guessesLeft: 9,
+//     wrongGuesses: [],
+//     puzzleState: word = [],
+// };
+
 
 
 
