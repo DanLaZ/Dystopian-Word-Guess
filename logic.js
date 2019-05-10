@@ -14,25 +14,48 @@ var randomWord = function(wordList) {
 
 //1.2 - isCorrectGuess function
 var isCorrectGuess = function(word, letter) {
-    for (var i = 0; i >= word.length; i++) {
-        if (gameWords[i] === letter) {
-          
+    for (var i = 0; i < word.length; i++) {
+        
+        var letterGuess = letter.toLowerCase().charAt(i);
+        if(letterGuess = word[i]) {
+            return true;
         }
-        return false;
-    }
-    return true;
+        
+        else {
+            return false;
+        }
+    }  
 }
 
 //1.3 - getBlanks function
 var getBlanks = function(blank) {
+    var blanks = [];
+    for (var i = 0; i < blanks.length; i ++) {
+
+    }
+    return blanks[i] = "_";
+ 
+
+    
 
 }
 
 //1.4 - fillBlanks function
+var fillBlanks = function(word, wordList, letter) {
+
+}
 
 /* Game Logic Part 2 - Game Management Functions */
 
 //1.5 - setupRound function
+var setupRound = function(word) {
+    var roundObj = {
+        word:
+        guessesLeft: 9,
+        wrongGuesses: [],
+        puzzleState:
+    }
+}
 
 //1.6 - updateRound function
 
