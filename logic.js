@@ -15,16 +15,14 @@ var randomWord = function(wordList) {
 //1.2 - isCorrectGuess function
 var isCorrectGuess = function(word, letter) {
     for (var i = 0; i < word.length; i++) {
-        
-        var letterGuess = letter.toLowerCase().charAt(i);
-        if(letterGuess = word[i]) {
-            return true;
-        }
-        
-        else {
-            return false;
-        }
-    }  
+            var char = word[i];
+
+            if(char === letter) {
+                return true;
+            }
+
+    }
+    return false;  
 }
 
 //1.3 - getBlanks function
