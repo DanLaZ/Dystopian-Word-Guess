@@ -15,11 +15,11 @@ var randomWord = function(wordList) {
 //1.2 - isCorrectGuess function
 var isCorrectGuess = function(word, letter) {
     for (var i = 0; i < word.length; i++) {
-            var char = word[i];
+        var char = word[i];
 
-            if(char === letter) {
-                return true;
-            }
+        if(char === letter) {
+            return true;
+        }
 
     }
     return false;  
