@@ -26,16 +26,13 @@ var isCorrectGuess = function(word, letter) {
 }
 
 //1.3 - getBlanks function
-var getBlanks = function(blanks) {
+var getBlanks = function(word) {
     var blanks = [];
-    for (var i = 0; i < blanks.length; i ++) {
-
-    }
-    return blanks[i] = "_";
- 
-
     
-
+    for (var i = 0; i < word.length; i++) {
+      blanks.push("_");
+    } 
+    return blanks;
 }
 
 //1.4 - fillBlanks function
