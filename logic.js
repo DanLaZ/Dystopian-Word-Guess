@@ -28,7 +28,7 @@ var isCorrectGuess = function(word, letter) {
 //1.3 - getBlanks function
 var getBlanks = function(word) {
     var blanks = [];
-    
+
     for (var i = 0; i < word.length; i++) {
       blanks.push("_");
     } 
@@ -37,8 +37,16 @@ var getBlanks = function(word) {
 
 //1.4 - fillBlanks function
 var fillBlanks = function(word, puzzleState, letter) {
-
+   
+    for (var i = 0; i < word.length; i++) {
+      if (word[i] === letter) {
+        puzzleState[i] = letter;
+      }
+      
+    }
+    return puzzleState;
 }
+  
 
 /* Game Logic Part 2 - Game Management Functions */
 
