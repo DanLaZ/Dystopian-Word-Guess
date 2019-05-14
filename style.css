@@ -2,7 +2,7 @@ body {
     margin: auto;
     padding: 0;
     padding-right: 200px;
-    /* background-image: url(imgs/cyberPunk_background.jpg); */
+    background-image: url(imgs/cyberPunk_background.jpg);
     background-size: 2000px 750px;
     background-repeat: no-repeat;
 }
@@ -18,7 +18,7 @@ body {
 
 .upsideDownFire {
     width: 275px;
-    height: 20%;
+    height: 100%;
     -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);

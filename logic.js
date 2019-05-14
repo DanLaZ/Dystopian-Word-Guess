@@ -62,8 +62,14 @@ var setupRound = function(word) {
 }
 
 //1.6 - updateRound function
-var updateRound = function(round, letter) {
+var updateRound = function(roundObj, letter) {
+    
+    if (roundObj.word === letter) {
+        isCorrectGuess;
+    }
+    else {
 
+    }
 
 }
 
